@@ -304,4 +304,8 @@ class Source extends ObjectBase {
   public function getType() {
     return $this->type;
   }
+
+  public function getExtXVersion() {
+    return $this->ext_x_version;
+  }
 }
